@@ -1,0 +1,60 @@
+
+body{
+    margin:0;
+    background-color: grey;
+}
+.header{
+    background-color: black;
+    height:50px;
+    padding:70px;
+    box-sizing: border-box;
+}
+ .header h1{
+     font-family: cursive;
+     color:white;
+     font-size: 50px;
+     margin:0;
+     position: relative;
+  bottom:10px;
+ }
+ .header img{
+     margin-left: 40%;
+     height: 50px;
+     width: 50px;
+     float: left;
+     background: #555;
+ }
+ 
+ 
+.main{
+    background-color:blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 440px;
+}
+.footer{
+    background-color: black;
+    padding:50px;
+    box-sizing: border-box;
+}
+.demo{
+    display: flex;
+    background-color:grey;
+    justify-content: flex-start;
+}
+.demo a{
+    font-family:cursive;
+    color:black;
+    text-decoration:none;
+    padding:10px;
+    width: 150px;
+    text-align:center;
+    
+}
+.demo a:hover{
+    background-color: red;
+    color:white;
+}.w3-xxxlarge {
+
+}

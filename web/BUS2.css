@@ -1,0 +1,29 @@
+body{
+    background-color:white;
+    margin:0;
+}
+.header{
+    display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+    
+    background-color: black;
+    height:120px;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+}
+.logo{
+    flex:0;
+}
+.header h1{
+    font-family: cursive;
+    font-size:40px;
+    
+   
+    padding:0px;
+    font-weight: lighter;
+/*    line-height: 0px;*/
+    
+    
+}
